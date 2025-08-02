@@ -1,0 +1,30 @@
+{
+  "name": "digital-service-backend",
+  "version": "1.0.0",
+  "description": "backend part",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "nodemon src/index.js",
+    "run_index": "node src/index.js",
+    "open_index": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "developer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9",
+    "webpack": "^5.100.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  }
+}
