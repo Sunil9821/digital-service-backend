@@ -15,7 +15,8 @@ app.use(cors(
 ))
 // app.use('', router);
 app.get('/', (req,res)=>{
-    res.send('Welcome To The Development....')
+    // res.send('Welcome To The Development....');
+    res.json({'status':'Success', 'message':'Welcome To The Development....'})
 })
 
 
